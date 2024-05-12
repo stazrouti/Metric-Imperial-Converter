@@ -6,10 +6,6 @@ let assert = chai.assert;
 
 chai.use(chaiHttp);
 
-// Top-level test suite for functional tests
-suite("Functional Tests", function () {
-    // Nested test suite for routing tests
-    suite("Routing Tests", function () {
         // Nested test suite for GET /api/convert endpoint
         suite("GET /api/convert => conversion object", function () {
             // Test case: Convert 10L (valid input)
@@ -84,5 +80,3 @@ suite("Functional Tests", function () {
                     });
             });
         });
-    });
-});

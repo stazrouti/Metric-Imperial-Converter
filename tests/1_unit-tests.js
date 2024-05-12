@@ -48,10 +48,7 @@ suite("Unit Tests", function () {
             assert.equal(convertHandler.getNum(input), 1);
             done();
         });
-    });
 
-    // Test for convertHandler.getUnit(input) function
-    suite("Function convertHandler.getUnit(input)", function () {
         // Test for each valid unit input
         test("For Each Valid Unit Inputs", function (done) {
             let input = [
