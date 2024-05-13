@@ -7,6 +7,7 @@ let convertHandler = new ConvertHandler();
 
 // Unit Tests
 suite("Unit Tests", function () {
+    suite("Function convertHandler.getNum(input)", function () {
         // Test for whole number input
         test("Whole number input", function (done) {
             let input = "32L";
@@ -199,3 +200,4 @@ suite("Unit Tests", function () {
             done();
         });
     });
+});
